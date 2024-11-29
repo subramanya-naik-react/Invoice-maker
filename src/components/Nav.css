@@ -1,0 +1,27 @@
+/* Center the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .bouncing-icon {
+    color: #3b82f6; 
+    font-size: 3rem; 
+    animation: bounceUpDown 3s ease-in-out infinite;
+
+  }
+  
+
+  @keyframes bounceUpDown {
+    0%  {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-30px) rotate(100deg);
+    }
+  
+  }
+  
